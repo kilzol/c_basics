@@ -1,2 +1,4 @@
 # c_basics
-basics of c
+some simple programs to understand some basic concepts of c
+1. understand call by value and call by refrence
+
