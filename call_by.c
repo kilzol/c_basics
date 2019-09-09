@@ -12,7 +12,7 @@ swapv(x,y);
 }
 else{
 swapr(&x,&y);
-printf("value at address is changed in this case a=%d and b=%d",*(&x),*(&y));
+printf("value at address is changed in this case a=%d and b=%d \n",*(&x),*(&y));
 }
 return 0;
 }
@@ -22,7 +22,7 @@ int swapv(int x,int y)
 t=x;
 x=y;
 y=t;
-printf(" value at address does not change a=%d and b=%d",x,y);
+printf(" value at address does not change a=%d and b=%d \n",x,y);
 }
 
 int swapr(int *x,int *y)
